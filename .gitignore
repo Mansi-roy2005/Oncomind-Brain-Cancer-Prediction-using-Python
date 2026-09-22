@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dataset - too large for GitHub, download from Kaggle
+Brain_Tumor_Data/
+
+# Archive folder
+Brain_Tumor_Data/archive/
+
+# User uploaded files (runtime folder)
+uploads/
+
+# Trained model weights (tracked via Git LFS)
+# models/*.h5  <-- kept intentionally; tracked via Git LFS
+
+# Logs & plots
+*.log
+static/training_metrics.png
